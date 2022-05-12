@@ -147,6 +147,7 @@ section {
 
 .steps img {
   width: 15%;
+  margin: 10px 0;
 }
 
 .steps h3 {
@@ -179,4 +180,28 @@ section {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+/*Start of Trainers Section*/
+
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
 }
