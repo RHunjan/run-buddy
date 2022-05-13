@@ -228,16 +228,11 @@ section {
 .text-right {
   text-align: right;
 }
-.text-right {
-  text-align: right;
-}
 
-/*Start Contact Section*/
-
+/* REACH OUT STYLES START */
 .contact {
-  background-color: #024e76;
   text-align: center;
-  overflow: auto;
+  background: #024e76;
 }
 
 .contact h2 {
