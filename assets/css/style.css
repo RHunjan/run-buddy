@@ -15,15 +15,13 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- 
 }
 
 header h1 {
   font-weight: bold;
- 
   margin: 0;
   font-size: 36px;
   color: #fce138;
@@ -35,7 +33,6 @@ header a {
 }
 
 header nav {
-  
   margin: 7px 0;
 }
 
@@ -50,7 +47,7 @@ header nav ul {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 1.5vw;
+  font-size: 1.55vw;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -61,21 +58,19 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
- 
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-
   line-height: 1.5;
   text-align: right;
 }
@@ -98,7 +93,7 @@ section {
   background-position: center;
   display: flex;
   justify-content: center;
-
+  flex-wrap: wrap;
 }
 
 .hero-cta {
@@ -108,11 +103,10 @@ section {
   color: #fff;
   font-size: 18px;
   line-height: 1.3;
-
 }
 
 .hero-cta h2 {
-  font-style:italic;
+  font-style: italic;
   font-size: 55px;
   color: #fce138;
 }
@@ -124,7 +118,6 @@ section {
   color: #024e76;
   width: 40%;
   margin: 3.5%;
-  
 }
 
 .hero-form h3 {
@@ -184,7 +177,6 @@ section {
 
 /* WHAT WE DO STYLES */
 
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -199,7 +191,6 @@ section {
 
 /* WHAT YOU DO STYLES START */
 .steps {
-  
   background: #fce138;
 }
 
@@ -222,17 +213,17 @@ section {
 
 .step-info {
   flex: 2 70%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.step-image {
+.step-img {
   flex: 1 12%;
   margin-right: 20px;
 }
 
-.step-image img {
+.step-img img {
   max-width: 100%;
 }
 
@@ -240,15 +231,15 @@ section {
   flex: 12;
 }
 
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color:#024e76
-}
-
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
 }
 
 /* WHAT YOU DO STYLES END */
@@ -263,27 +254,23 @@ section {
 }
 
 .trainer {
-  flex: 1;
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  
 }
 
 .trainer img {
   width: 100%;
-
 }
 
 .trainer-bio {
   padding: 25px;
-
   line-height: 1.3;
 }
 
 .trainer-bio h3 {
   font-size: 28px;
- 
 }
 
 .trainer-bio h4 {
@@ -294,14 +281,12 @@ section {
 
 .trainer-bio p {
   font-size: 17px;
-
 }
 
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
- 
   background: #024e76;
 }
 
@@ -311,12 +296,12 @@ section {
 
 .contact-info {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.contact-info >*{
-  flex:1;
+.contact-info>* {
+  flex: 1;
   margin: 15px;
 }
 
@@ -341,18 +326,15 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   margin-top: 5px;
 }
 
@@ -360,11 +342,16 @@ section {
   width: 100%;
   border: none;
   background: #fce138;
-   color: #024e76;
-   text-align: center;
-   padding: 15px 0;
-    font-size: 16px;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
+
+.contact-info a {
+  color: #fce138;
+}
+
 
 /* REACH OUT STYLES END */
 
@@ -378,5 +365,5 @@ section {
 }
 
 .flex-row {
-  display:flex;
+  display: flex;
 }
