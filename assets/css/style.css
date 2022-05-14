@@ -91,6 +91,8 @@ section {
   position: absolute;
   bottom: 120px;
   right: 140px;
+  border-radius: 5%;
+ 
 }
 
 .hero-form h3 {
@@ -272,4 +274,26 @@ section {
 
 /* REACH OUT STYLES END */
 
+
+/*New Hero Text*/
+
+.hero-text {
+  width: 600px;
+  display: inline-block;
+
+  vertical-align: top;
+ }
+
+ .hero-text h2 {
+   color: #fce138;
+   text-align: right;
+   font-size: 50px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .hero-text p {
+   color: white;
+   text-align: right;
+ }
 
